@@ -23,8 +23,8 @@
     }
 
     input:checked + p {
-      background: #F9F9F9;
-      text-decoration: line-through;
+      background: #F9F9F9; /* the background also turns greyer */
+      text-decoration: line-through; /*This bit crosses out the text when someone checks a box*/
     }
 
     input[type="checkbox"] {
