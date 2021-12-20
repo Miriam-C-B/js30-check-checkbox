@@ -2,7 +2,7 @@ const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]'); /
 let lastChecked; //last ticked box; changes  
 
 function handleCheck(e) {
-    let inBetween = false; //glag variable
+    let inBetween = false; //flag variable
     //check if you press the shift key down AND check that they are checking (not unchecking it)
     if (e.shiftKey && this.checked) {
         //go ahead and loop over every single checkbox to see if they are in the area we want to check
